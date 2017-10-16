@@ -7,7 +7,7 @@ fibonacci <- function() {
           }
           z <- y;y <- x + y;x <- z
      }
-     return(sum(sums))
+     return(sums)
 }
 
 fibonacci()
