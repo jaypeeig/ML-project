@@ -3,7 +3,6 @@ def large():
 	largest = 0
 	for i in xrange(len(n) - 13):
 		prod = 1
-		temp = n[i:i+13]
 		for j in xrange(i, i+13):
 			prod *= int(n[j:j+1])
 			print prod
