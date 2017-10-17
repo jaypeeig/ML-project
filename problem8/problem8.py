@@ -5,7 +5,6 @@ def large():
 		prod = 1
 		for j in xrange(i, i+13):
 			prod *= int(n[j:j+1])
-			print prod
 		if prod > largest:
 			largest = prod
 	return largest
