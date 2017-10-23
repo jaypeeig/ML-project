@@ -2,7 +2,7 @@
 	https://projecteuler.net/problem=5
 */
 
-for (let i = 1; i <= 100000000000; i++) {
+for (let i = 1; true; i++) {
 	if (( i % 1 == 0 ) &&
 		( i % 2 == 0 ) &&
 		( i % 3 == 0 ) &&
